@@ -1,0 +1,27 @@
+{
+  "name": "omp-simplify",
+  "owner": {
+    "name": "Minoo"
+  },
+  "metadata": {
+    "description": "Marketplace catalog for the OMP simplify plugin.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "simplify",
+      "source": "./",
+      "description": "Adds /simplify and /simplify-settings commands with optional auto-simplify follow-ups.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Minoo"
+      },
+      "keywords": [
+        "omp",
+        "simplify",
+        "code-review"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

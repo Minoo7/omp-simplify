@@ -2,6 +2,20 @@
   "name": "omp-simplify",
   "version": "0.1.0",
   "type": "module",
+  "description": "Adds /simplify and /simplify-settings commands with optional auto-simplify follow-ups.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minoo7/omp-simplify.git"
+  },
+  "keywords": [
+    "omp",
+    "pi",
+    "pi-package",
+    "extension",
+    "simplify",
+    "code-review"
+  ],
   "files": [
     "src"
   ],
@@ -12,6 +26,13 @@
     "@oh-my-pi/pi-coding-agent": "^15.1.0"
   },
   "omp": {
+    "name": "simplify",
+    "description": "Adds /simplify and /simplify-settings commands with optional auto-simplify follow-ups.",
+    "extensions": [
+      "src/index.ts"
+    ]
+  },
+  "pi": {
     "name": "simplify",
     "description": "Adds /simplify and /simplify-settings commands with optional auto-simplify follow-ups.",
     "extensions": [

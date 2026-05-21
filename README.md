@@ -4,15 +4,21 @@ OMP plugin that adds `/simplify` and `/simplify-settings` commands with optional
 
 ## Install
 
-This plugin is an OMP npm-style extension. It works when installed as an npm package into OMP's plugin directory.
+Current OMP releases load ExtensionAPI plugins from npm-style package installs in OMP's plugin directory.
 
-Once published to npm:
+Install directly from GitHub:
+
+```bash
+bun install --cwd ~/.omp/plugins github:Minoo7/omp-simplify
+```
+
+Or, after publishing to npm:
 
 ```bash
 omp plugin install omp-simplify
 ```
 
-Until then, install from a local checkout:
+For local development:
 
 ```bash
 npm pack

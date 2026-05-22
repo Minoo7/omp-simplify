@@ -1,4 +1,4 @@
-import type { ExtensionAPI, ExtensionCommandContext } from "@oh-my-pi/pi-coding-agent";
+import type { ExtensionAPI, ExtensionCommandContext } from "./types.ts";
 import { getChangedFiles } from "./git-diff.ts";
 import { buildSimplifyPrompt } from "./prompt-builder.ts";
 import {

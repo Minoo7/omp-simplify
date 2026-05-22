@@ -23,7 +23,7 @@
     "test": "bun test test/smoke.test.ts"
   },
   "peerDependencies": {
-    "@oh-my-pi/pi-coding-agent": "^15.1.0"
+    "@oh-my-pi/pi-coding-agent": "*"
   },
   "omp": {
     "name": "simplify",
@@ -38,5 +38,10 @@
     "extensions": [
       "src/index.ts"
     ]
+  },
+  "peerDependenciesMeta": {
+    "@oh-my-pi/pi-coding-agent": {
+      "optional": true
+    }
   }
 }

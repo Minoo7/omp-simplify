@@ -1,4 +1,4 @@
-import type { ExtensionAPI, ExtensionCommandContext } from "@oh-my-pi/pi-coding-agent";
+import type { ExtensionAPI, ExtensionCommandContext } from "./types.ts";
 import { createAutoSimplifyHooks } from "./auto-simplify.ts";
 import {
   COMMAND_NAME,
